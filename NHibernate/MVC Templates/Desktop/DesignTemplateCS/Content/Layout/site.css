@@ -1,0 +1,247 @@
+html, body, form {
+    margin      : 0px;
+    padding     : 0px;
+    font-family : calibri, "eras light itc", "trebuchet ms", "arial narrow", sans-serif;
+}       
+        
+body {
+    background  : url(desktop_background.jpg) top center;                                
+}
+
+div.photo {
+    float           : right;
+    position        : relative;
+    margin          : -35px 0px 0px 0px;
+    left            : 30px;
+}
+
+div.container {
+    background  : url(desktop_background_extra.jpg) top center no-repeat;    
+}
+
+div.mainContent {
+    width       : 760px;
+    left        : 50%;
+    margin      : 0 0 0 -380px;
+    position    : relative;
+    z-index     : 0;
+    background  : url(desktop_header.jpg) top center no-repeat;
+}
+
+.overlink { z-index : 5; }
+
+.clear {
+    overflow    : hidden;
+    height      : 0px;
+    clear       : both;
+}
+
+.label {
+    position    : absolute;
+    top         : -9999px;
+}
+
+div.header {
+    height      : 126px;
+}
+
+div.siteId { position:absolute; z-index : 1; }     
+div.header div.tabs {
+    padding     : 53px 0 0 144px;
+}
+            
+div.header a img {
+    border      : none;
+    cursor      : pointer;
+}
+
+div.contentWrapper {
+    background  : url(desktop_content_background.jpg) center repeat-y;                
+}
+div.cardHelper {
+    background  : url(desktop_content_ext_a.jpg) top left no-repeat;
+    width       : 50px;
+    height      : 345px;
+    position    : absolute;
+    margin      : 0px 0px 0px -50px;
+}
+div.cdExtra {
+    height      : 300px;
+    width       : 136px;
+    background  : url(extra_cd.png) top left no-repeat;
+    position    : absolute;
+    margin      : -365px 0px 0px -91px;
+    z-index     : 15;
+}
+
+div.contentArea {
+    background  : url(desktop_content_top.jpg) top left no-repeat;
+    position    : relative;
+    z-index     : 10;                
+    padding     : 10px 75px 40px 75px;
+}
+
+div.contentArea h1 {
+    font-size   : 2.2em;
+    padding     : 0px;
+    margin      : 0 15px 10px 15px;
+    font-weight : normal;
+    color       : #06C;    
+}
+
+div.contentArea h2 {
+    font-size   : 1.8em;
+    padding     : 0px;
+    margin      : 0 15px 10px 15px;
+    font-weight : normal;
+    color       : #093;    
+}
+
+div.contentArea h3 {
+    font-size   : 1.4em;
+    padding     : 0px;
+    margin      : 0 20px 5px 20px;
+    font-weight : normal;
+    color       : #777;    
+}
+
+div.contentArea p {
+    font-size   : 1em;
+    line-height : 160%;
+    padding     : 0px;
+    margin      : 0 25px 25px 25px;
+    
+}
+
+div.contentArea p.sectionLink {
+    position    : relative;
+    top         : -15px;
+    padding-right: 25px;
+    text-align  : right;
+}
+
+a {
+    color       : #467618;
+    font-size   : 1em;
+}
+
+a:hover {
+    color       : #C66B09;
+}
+
+div.footer {
+    background  : url(desktop_footer.png) top left no-repeat;
+    width       : 760px;
+    height      : 200px;
+}
+         
+div.zuneHelper {
+    position    : absolute;
+    left        : 0px;
+    margin      : 0 0 0 50%;
+    width       : 49.9%;
+    background  : none;
+    overflow    : hidden;
+}
+
+div.zuneHelper div.zuneImage {      
+    height      : 600px;
+    margin      : 145px 0px 0px 300px;
+    background  : url(extra_zune.png) top left no-repeat;
+}
+
+div.zuneOverlayHelper {
+    position    : absolute;
+    margin      : 19px 0px 0px 680px;                
+    width       : 80px;
+    height      : 200px;
+    z-index     : 15;
+    overflow    : hidden;
+}
+
+div.zuneOverlayHelper div.zuneOverlay {             
+    width       : 80px;
+    height      : 200px;
+    background  : url(extra_zune.png) top left no-repeat;
+}
+
+div.sharpeeExtra {
+    height      : 119px;
+    width       : 294px;
+    position    : absolute;
+    margin      : 30px 0px 0px 140px;
+    background  : url(extra_sharpee.png) bottom left no-repeat;                
+}
+
+div.sodaExtra {
+    height      : 252px;
+    width       : 304px;
+    position    : absolute;
+    margin      : -55px 0px 0px -145px;
+    background  : url(extra_soda.png) bottom left no-repeat;                
+}
+
+div.madeWithMvc a {
+    height      : 44px;
+    width       : 173px;
+    position    : absolute;
+    margin      : 82px 0px 0px 500px;
+    background  : url(made_with_mvc.png) top left no-repeat;
+    cursor      : pointer;
+    z-index     : 20;
+}
+
+div.note {
+    float       : right;
+    clear       : right;
+    width       : 262px;
+    background  : #FFE top left repeat-y;
+    margin      : 0 0 15px 15px;
+}
+
+div.note h2 {
+    margin      : 0;
+    padding     : 0 0 10px 0;
+    font-size   : 1.4em;
+    font-weight : normal;
+    color       : #777;
+}
+
+div.note p {
+    margin      : 0;
+    padding     : 0 10px 10px 10px;
+    font-size   : 1em;
+    font-weight : normal;
+    color       : #444;
+}
+
+div.note div.notebody {
+    padding     : 32px 20px 20px 20px;
+    color       : #444;
+    background  : top left no-repeat;
+}
+
+div.note div.notefooter {
+    background  : #FFF top left no-repeat;
+    height      : 40px;
+}
+
+div.note-yellow h2 { color : #927d19; }
+div.note-yellow { background-image : url(note_yellow_body.jpg); }
+div.note-yellow div.notebody { background-image : url(note_yellow_header.jpg); }
+div.note-yellow div.notefooter { background-image : url(note_yellow_footer.jpg); }
+
+div.note-green h2 { color : #267124; }
+div.note-green { background-image : url(note_green_body.jpg); }
+div.note-green div.notebody { background-image : url(note_green_header.jpg); }
+div.note-green div.notefooter { background-image : url(note_green_footer.jpg); }
+
+div.note-blue h2 { color : #213f75; }
+div.note-blue { background-image : url(note_blue_body.jpg); }
+div.note-blue div.notebody { background-image : url(note_blue_header.jpg); }
+div.note-blue div.notefooter { background-image : url(note_blue_footer.jpg); }
+
+div.note-red h2 { color : #712424; }
+div.note-red { background-image : url(note_red_body.jpg); }
+div.note-red div.notebody { background-image : url(note_red_header.jpg); }
+div.note-red div.notefooter { background-image : url(note_red_footer.jpg); }

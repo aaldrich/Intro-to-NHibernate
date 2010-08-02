@@ -1,0 +1,43 @@
+﻿div.note {
+    position       : relative;
+    z-index        : 1;
+}
+
+div.header {
+    overflow      : hidden;
+}
+
+* html div.cdExtra {
+    background  : none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/content/layout/extra_cd.png');
+}
+
+* html div.footer {              
+    background  : none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/content/layout/desktop_footer.png');
+}
+
+* html div.sodaExtra {
+    background  : none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/content/layout/extra_soda.png');
+}
+
+* html div.sharpeeExtra {
+    background  : none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/content/layout/extra_sharpee.png');
+}
+
+* html div.zuneHelper div.zuneImage {
+    background  : none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/content/layout/extra_zune.png');
+}
+
+* html div.zuneOverlayHelper div.zuneOverlay {
+    background  : none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/content/layout/extra_zune.png');
+}
+
+* html div.madeWithMvc a {
+    background  : none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/content/layout/made_with_mvc.png');
+}

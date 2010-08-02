@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" auto-import="true">
+	<class name="NHibernateDemo.Entities.Managers.Manager, NHibernateDemo.Entities" lazy="true" table="Managers">
+		<id name="Id" column="Id" type="Int32" unsaved-value="-1">
+			<generator class="native" />
+		</id>
+		<property name="FirstName" column="FirstName" length="50" type="String" not-null="false" />
+		<property name="LastName" column="LastName" length="50" type="String" not-null="false" />
+		<set name="Employees" lazy="true" cascade="all">
+			<key column="ManagerId"/>
+			<one-to-many class="NHibernateDemo.Entities.Employees.Employee, NHibernateDemo.Entities" />
+		</set>
+	</class>
+</hibernate-mapping>

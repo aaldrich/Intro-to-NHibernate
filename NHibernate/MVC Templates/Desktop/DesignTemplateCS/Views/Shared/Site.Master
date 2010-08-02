@@ -1,0 +1,81 @@
+<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+    
+<%@ Import Namespace="System.Drawing" %>
+<%@ Import Namespace="Rendering" %>
+    
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <%-- Allows PageTitle to be set without needing a head tag running at the server --%>
+    <head runat="server" visible="false" />
+    <head>
+        <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+        <link rel="stylesheet" type="text/css" href="/content/layout/site.css" media="screen" />
+        <link rel="shortcut icon" href="/content/favicon.ico" />
+        <!--[if IE]>
+        <link rel="stylesheet" type="text/css" href="/content/layout/site-ie6-extras.css" media="screen" />
+        <![endif]-->
+                        
+    </head>
+    <body>    
+        <asp:ContentPlaceHolder ID="top" runat="server" />
+  
+        <div class="bodyWrapper">
+        <div class="container" >  
+            <div class="zuneHelper" ><div class="zuneImage"></div></div>
+            <div class="mainContent" >
+                
+                <% this.Html.RenderPartial(
+                    "Header",
+                    new HeaderRenderControl(
+                        new Font("Segoe Print", 16),
+                        new LogoDetails(
+                            this.Url.Action("Index", "Home"),
+                            "Click here to return to the main page",
+                            "Site Logo Alt Text goes here"
+                            ),
+                        new TabDetails(
+                            "Home",
+                            this.Url.Action("Index", "Home"),
+                            "Return to the home page of the site"
+                            ),
+                        new TabDetails(
+                            "About",
+                            this.Url.Action("About", "Home"),
+                            "Learn more about me and my site"
+                            ),
+                        new TabDetails(
+                            "Samples",
+                            this.Url.Action("Samples", "Home"),
+                            "See some projects I've worked on"
+                            ),
+                        new TabDetails(
+                            "Contact",
+                            this.Url.Action("Contact", "Home"),
+                            "Send me questions and comments"
+                            )
+                        // This control supports a total of 4 tabs
+                    ));
+                %>               
+                
+                <div class="contentWrapper">                    
+                    <div class="cardHelper" ></div>
+                    <div class="zuneOverlayHelper" ><div class="zuneOverlay" ></div></div>
+                    <div id="resumeZones" class="contentArea" >
+                        <asp:ContentPlaceHolder ID="MainContent" runat="server" />                        
+                    </div>
+                </div>
+                <div class="madeWithMvc" > 
+                    <a href="http://www.asp.net/mvc" target="_blank" title="Learn more about ASP.net MVC" ><span class="label">Powered By ASP.net MVC</span></a> 
+                </div> 
+                <div class="sharpeeExtra" ></div>
+                <div class="cdExtra" ></div>
+                <div class="sodaExtra" ></div>
+                <div class="footer" ></div>
+                <asp:ContentPlaceHolder ID="footer" runat="server" />
+                                
+            </div>
+        </div>          
+        </div>        
+    </body>
+</html>   

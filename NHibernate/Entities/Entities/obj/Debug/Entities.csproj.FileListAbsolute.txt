@@ -1,0 +1,8 @@
+C:\repositories\NHibernateIntro\NHibernate\Entities\Entities\bin\Debug\NHibernateDemo.Entities.dll
+C:\repositories\NHibernateIntro\NHibernate\Entities\Entities\bin\Debug\NHibernateDemo.Entities.pdb
+C:\repositories\NHibernateIntro\NHibernate\Entities\Entities\bin\Debug\Iesi.Collections.dll
+C:\repositories\NHibernateIntro\NHibernate\Entities\Entities\bin\Debug\LinFu.DynamicProxy.dll
+C:\repositories\NHibernateIntro\NHibernate\Entities\Entities\bin\Debug\Iesi.Collections.xml
+C:\repositories\NHibernateIntro\NHibernate\Entities\Entities\obj\Debug\ResolveAssemblyReference.cache
+C:\repositories\NHibernateIntro\NHibernate\Entities\Entities\obj\Debug\NHibernateDemo.Entities.dll
+C:\repositories\NHibernateIntro\NHibernate\Entities\Entities\obj\Debug\NHibernateDemo.Entities.pdb

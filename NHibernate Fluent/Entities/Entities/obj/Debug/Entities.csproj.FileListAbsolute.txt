@@ -1,0 +1,15 @@
+C:\repositories\NHibernateIntro\NHibernate Fluent\Entities\Entities\bin\Debug\NHibernateDemo.Entities.dll
+C:\repositories\NHibernateIntro\NHibernate Fluent\Entities\Entities\bin\Debug\NHibernateDemo.Entities.pdb
+C:\repositories\NHibernateIntro\NHibernate Fluent\Entities\Entities\bin\Debug\FluentNHibernate.dll
+C:\repositories\NHibernateIntro\NHibernate Fluent\Entities\Entities\bin\Debug\Iesi.Collections.dll
+C:\repositories\NHibernateIntro\NHibernate Fluent\Entities\Entities\bin\Debug\NHibernate.dll
+C:\repositories\NHibernateIntro\NHibernate Fluent\Entities\Entities\bin\Debug\log4net.dll
+C:\repositories\NHibernateIntro\NHibernate Fluent\Entities\Entities\bin\Debug\Antlr3.Runtime.dll
+C:\repositories\NHibernateIntro\NHibernate Fluent\Entities\Entities\bin\Debug\NHibernate.xml
+C:\repositories\NHibernateIntro\NHibernate Fluent\Entities\Entities\bin\Debug\Iesi.Collections.xml
+C:\repositories\NHibernateIntro\NHibernate Fluent\Entities\Entities\bin\Debug\log4net.xml
+C:\repositories\NHibernateIntro\NHibernate Fluent\Entities\Entities\bin\Debug\FluentNHibernate.pdb
+C:\repositories\NHibernateIntro\NHibernate Fluent\Entities\Entities\bin\Debug\FluentNHibernate.xml
+C:\repositories\NHibernateIntro\NHibernate Fluent\Entities\Entities\obj\Debug\ResolveAssemblyReference.cache
+C:\repositories\NHibernateIntro\NHibernate Fluent\Entities\Entities\obj\Debug\NHibernateDemo.Entities.dll
+C:\repositories\NHibernateIntro\NHibernate Fluent\Entities\Entities\obj\Debug\NHibernateDemo.Entities.pdb
