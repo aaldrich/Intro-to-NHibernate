@@ -27,7 +27,7 @@ namespace NHibernateDemo.UnitTests.NHibernate_Setup
             session_factory = 
                 Fluently.Configure()
                 .Database(SQLiteConfiguration.Standard.InMemory)
-                .Mappings(x => x.FluentMappings.AddFromAssemblyOf<Employee>().ExportTo(@"C:\mappings"))
+                .Mappings(x => x.FluentMappings.AddFromAssemblyOf<Employee>().ExportTo(@"..\..\..\..\Mappings_Export"))
                 .ExposeConfiguration(x=>config = x)
                 .BuildSessionFactory();
 

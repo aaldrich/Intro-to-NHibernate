@@ -7,7 +7,6 @@ using NHibernate.Criterion;
 using NHibernate.Linq;
 using NHibernateDemo.Entities.Employees;
 using NHibernateDemo.UnitTests.Setup;
-using NUnit.Framework;
 
 namespace NHibernateDemo.UnitTests.Employees
 {
@@ -81,7 +80,7 @@ namespace NHibernateDemo.UnitTests.Employees
             {
                 var e = employee.FirstName; //When you try to access something from the proxy 
                                             //it will throw an exception.
-                Assert.Fail("Should not get here");
+                true.ShouldBeFalse();
             }
             catch (Exception exception)
             {

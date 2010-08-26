@@ -36,7 +36,7 @@ namespace NHibernateDemo.DataAccess.NHibernate_Setup
             session_factory =
                 Fluently.Configure()
                 .Database(SQLiteConfiguration.Standard.UsingFile("nhdemo_sqllite_db.db"))
-                .Mappings(x => x.FluentMappings.AddFromAssemblyOf<Employee>().ExportTo(@"Mappings_Export"))
+                .Mappings(x => x.FluentMappings.AddFromAssemblyOf<Employee>().ExportTo(@"..\..\..\..\Mappings_Export"))
                 .ExposeConfiguration(x => config = x)
                 .BuildSessionFactory();
 
