@@ -13,6 +13,9 @@ namespace NHibernateDemo.MVC.Controllers
         {
             try
             {
+                if (controllerType == null)
+                    return null;
+
                 return ObjectFactory.GetInstance(controllerType) as Controller;
             }
             catch (StructureMapException)
