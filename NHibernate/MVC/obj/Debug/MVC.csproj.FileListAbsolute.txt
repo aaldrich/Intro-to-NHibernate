@@ -43,3 +43,5 @@ C:\repositories\Intro_To_NHibernate\NHibernate\MVC\bin\NHibernateDemo.DataAccess
 C:\repositories\Intro_To_NHibernate\NHibernate\MVC\obj\Debug\ResolveAssemblyReference.cache
 C:\repositories\Intro_To_NHibernate\NHibernate\MVC\obj\Debug\NHibernateDemo.MVC.dll
 C:\repositories\Intro_To_NHibernate\NHibernate\MVC\obj\Debug\NHibernateDemo.MVC.pdb
+C:\repositories\Intro_To_NHibernate\NHibernate\MVC\bin\System.Data.SQLite.dll
+C:\repositories\Intro_To_NHibernate\NHibernate\MVC\bin\StructureMap.dll
