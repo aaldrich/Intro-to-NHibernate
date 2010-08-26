@@ -19,21 +19,32 @@ namespace NHibernateDemo.DataAccess.Managers
         public Manager get_by_id(int id)
         {
             throw new NotImplementedException();
+
+            return session.Get<Manager>(id);
         }
 
         public Manager save(Manager manager)
         {
             throw new NotImplementedException();
+
+            session.SaveOrUpdate(manager);
+            session.Flush();
+            return manager;
         }
 
         public void delete(Manager manager)
         {
             throw new NotImplementedException();
+
+            session.Delete(manager);
+            session.Flush();
         }
 
         public IEnumerable<Manager> get_all()
         {
             throw new NotImplementedException();
+
+            return session.Linq<Manager>();
         }
     }
 }
